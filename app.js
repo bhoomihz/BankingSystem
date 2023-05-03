@@ -9,7 +9,7 @@ const { indexController } = require("./controllers/indexController");
 require("dotenv").config();
 
 const DB =
-  "mongodb+srv://bhoomisv:Simmo457@cluster0.zli3ysf.mongodb.net/BankingSystem?retryWrites=true&w=majority";
+  "mongodb+srv://userID: password@cluster0.zli3ysf.mongodb.net/BankingSystem?retryWrites=true&w=majority";
 
 const connection = mongoose
   .connect(DB, {
